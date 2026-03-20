@@ -1,0 +1,13 @@
+use smc;
+select * from book;
+
+
+create table book2(
+	id varchar(20) primary key,
+	name varchar(20)	
+);
+
+insert into book2(id, name) values('s1', '임혜진');
+
+select * from book2;
+select * from book;
