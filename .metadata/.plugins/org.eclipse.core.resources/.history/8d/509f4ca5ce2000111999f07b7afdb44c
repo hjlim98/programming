@@ -1,0 +1,5 @@
+use smc;
+create table book2(
+id varchar(20) primary key,
+name varchar(20)
+);

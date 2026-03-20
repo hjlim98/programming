@@ -1,0 +1,2 @@
+use smc;
+select * from book1;
